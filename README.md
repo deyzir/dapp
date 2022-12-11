@@ -19,25 +19,25 @@ Bfore we start what we will use source;
 LET WE START ;)
 #
 
-npx create-react-app x
+-npx create-react-app x
 <br>
-Enter to inside x file
+-Enter to inside x file
 <br>
-npm i -D dotenv
+-npm i -D dotenv
 <br>
-npm i -D @nomiclabs/hardhat-etherscan
+-npm i -D @nomiclabs/hardhat-etherscan
 <br>
-npm i -D hardhat
+-npm i -D hardhat
 <br>
-npx hardhat
+-npx hardhat
 <br>
-create basic simple project
+-create basic simple project
 <br>
-npm i @openzeppelin/contracts
+-npm i @openzeppelin/contracts
 <br>
-#
 - get to chakra uı webiste and go to installation - then copy (npm i ....)
 <br>
+#
 we will delete some file in x folder example; satup-test.js,app.test.js vb 
 <br>
 of course you have to clear ın ındex.js into reportWebtials and course we should delete something in app.js
