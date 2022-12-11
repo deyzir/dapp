@@ -1,15 +1,31 @@
-# Basic Sample Hardhat Project
+# CREATE A DAPP WEBSİTE 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Bfore we start what we will use source;
 
-Try running some of the following tasks:
+1 - REACT 
+2 - HARDHAT
+3 - İNFURA
+4 - ETHERSCAN
+5 - NODE
+6 - CHAKRA UI
+7 - ALCHEMY
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+LET WE START ;)
+#
+
+npx create-react-app x
+Enter to inside x file
+npm i -D dotenv
+npm i -D @nomiclabs/hardhat-etherscan
+npm i -D hardhat
+npx hardhat
+create basic simple project
+npm i @openzeppelin/contracts
+#
+- get to chakra uı webiste and go to installation - then copy (npm i ....)
+we will delete some file in x folder example; satup-test.js,app.test.js vb 
+of course you have to clear ın ındex.js into reportWebtials and course we should delete something in app.js
+find contracts folder then create new file in contracts name 'y.sol' paste your solidity code into y.sol
+
+
+
