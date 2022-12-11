@@ -37,9 +37,12 @@ npm i @openzeppelin/contracts
 <br>
 #
 - get to chakra uı webiste and go to installation - then copy (npm i ....)
+<br>
 we will delete some file in x folder example; satup-test.js,app.test.js vb 
+<br>
 of course you have to clear ın ındex.js into reportWebtials and course we should delete something in app.js
+<br>
 find contracts folder then create new file in contracts name 'y.sol' paste your solidity code into y.sol
-
+<br>
 
 
