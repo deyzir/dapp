@@ -20,28 +20,34 @@ LET WE START ;)
 #
 ```
 - npx create-react-app x
-```
 <br>
+```
+
+```
 - Enter to inside x file
 <br>
 ```
 - npm i -D dotenv
-```
 <br>
 ```
-- npm i -D @nomiclabs/hardhat-etherscan
 ```
+- npm i -D @nomiclabs/hardhat-etherscan
+
 <br>
 ```
 - npm i -D hardhat
-```
+
 <br>
+```
 - npx hardhat
 <br>
+```
 - reate basic simple project
 <br>
+```
 - npm i @openzeppelin/contracts
 <br>
+```
 - get to chakra uı webiste and go to installation - then copy (npm i ....)
 <br>
 #
