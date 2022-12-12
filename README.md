@@ -1,6 +1,11 @@
 # CREATE A DAPP WEBSİTE 
 
-Bfore we start what we will use source;
+#How is it looking code 
+
+![images](https://user-images.githubusercontent.com/64195458/207062889-edfed772-f528-4c75-977a-b6244a51c4dd.gif)
+
+
+Before we start what we will use source;
 <br>
 1 - REACT 
 <br>
