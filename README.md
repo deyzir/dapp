@@ -18,16 +18,23 @@ Bfore we start what we will use source;
 <br>
 LET WE START ;)
 #
-
+```
 - npx create-react-app x
+```
 <br>
 - Enter to inside x file
 <br>
+```
 - npm i -D dotenv
+```
 <br>
+```
 - npm i -D @nomiclabs/hardhat-etherscan
+```
 <br>
+```
 - npm i -D hardhat
+```
 <br>
 - npx hardhat
 <br>
@@ -61,6 +68,21 @@ enter private keys on .env file
 enter hardhat.config.js and put your code inside to hardhat.config.js 
 
 right now we can compile this code 
+```
+npx hardhat compile
+```
+```
+npx hardhat run scripts/deploying.js --network georli 
+```
+
+
+we can go to goerliethercan and we can see contract address 
+
+but there is a little problem  this contract dont verify we will verify this contract
+
+npx hardhat verify -- network goerli ' enter the contract address here '
+
+very good everything is working right now  ;)
 
 
 
