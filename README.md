@@ -73,9 +73,12 @@ we can go to goerliethercan and we can see contract address
 <br>
 but there is a little problem  this contract dont verify we will verify this contract
 <br>
+
+
 ```
-npx hardhat verify -- network goerli ' enter the contract address here '
+npx hardhat verify -- network goerli -enter the contract adress here-
 ```
+
 <br>
 very good everything is working right now  ;)
 
