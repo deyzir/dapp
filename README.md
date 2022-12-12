@@ -40,34 +40,38 @@ of course you have to clear ın ındex.js into reportWebtials and course we shou
 find contracts folder then create new file in contracts name 'y.sol' paste your solidity code into y.sol
 <br>
 enter to scripts folder and create new file name is 'deploying.js' then put your code into deploying.js
-
+<br>
 we will get fake ether like goerli testnet we can buy from https://goerlifaucet.com/
-
+<br>
 and of course should from metamask settings show testnets 
-
+<br>
 go to infura and create new project. choose goerli testnet
-
+<br>
 come back to vscode add .env file 
-
+<br>
 enter etherscan key on .env file
-
+<br>
 enter private keys on .env file
-
+<br>
 enter hardhat.config.js and put your code inside to hardhat.config.js 
+<br>
 
 right now we can compile this code 
+<br>
 ```
 npx hardhat compile
 npx hardhat run scripts/deploying.js --network georli 
 ```
 
-
+<br>
 we can go to goerliethercan and we can see contract address 
-
+<br>
 but there is a little problem  this contract dont verify we will verify this contract
+<br>
 ```
 npx hardhat verify -- network goerli ' enter the contract address here '
 ```
+<br>
 very good everything is working right now  ;)
 
 
