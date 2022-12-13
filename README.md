@@ -82,8 +82,42 @@ npx hardhat verify -- network goerli -enter the contract adress here-
 <br>
 very good everything is working right now  ;)
 
+# how we can connect to website this contract 
+
+actually its very clear we can look 'mainMint.js file' 
+<br>
+we used to web3 for connection to website or we can use ether.js its your choice
 
 
+```
+    async function handleMint() {
+        if(window.ethereum) {
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const signer = provider.getSigner();
+            const contract = new ethers.Contract(
+                minessAdress,
+                mines.abi,
+                signer 
+            );
+
+```
+
+this code allow us to connect but we see **mines.abi** 
+first of all we have to add mines.abi file to src folder.
+
+
+
+<img width="319" alt="Screenshot 2022-12-13 at 08 34 04" src="https://user-images.githubusercontent.com/64195458/207234973-fe14371c-8d8b-4de0-9fe3-7b0195f94414.png">
+
+this image we can see it but the name is different to src because ı changed it 
+<br>
+<img width="324" alt="Screenshot 2022-12-13 at 08 35 00" src="https://user-images.githubusercontent.com/64195458/207235096-21806a68-876d-47d1-b07b-e84836f41de1.png">
+
+this file name is **Miness.json**
+<br>
+ı just did copy past from artifact/contracts/....json. to src/Miness.json
+<br>
+everything is looking good 
 
 
 
