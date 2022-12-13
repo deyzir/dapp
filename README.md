@@ -21,7 +21,11 @@ Before we start what we will use source;
 <br>
 7 - ALCHEMY
 <br>
-LET WE START ;)
+8 - PİNATA
+<br>
+9 - HASHLİPS CONTRACTS
+<br>
+Let We Start ;)
 #
 ```
 - npx create-react-app x
