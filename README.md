@@ -38,30 +38,30 @@ LET WE START ;)
 - get to chakra uı webiste and go to installation - then copy (npm i ....)
 <br>
 #
-we will delete some file in x folder example; satup-test.js,app.test.js vb 
+We will delete some file in x folder example; satup-test.js,app.test.js vb 
 <br>
-of course you have to clear ın ındex.js into reportWebtials and course we should delete something in app.js
+Of course you have to clear ın ındex.js into reportWebtials and course we should delete something in app.js
 <br>
-find contracts folder then create new file in contracts name 'y.sol' paste your solidity code into y.sol
+Find contracts folder then create new file in contracts name 'y.sol' paste your solidity code into y.sol
 <br>
-enter to scripts folder and create new file name is 'deploying.js' then put your code into deploying.js
+Enter to scripts folder and create new file name is 'deploying.js' then put your code into deploying.js
 <br>
-we will get fake ether like goerli testnet we can buy from https://goerlifaucet.com/
+We will get fake ether like goerli testnet we can buy from https://goerlifaucet.com/
 <br>
-and of course should from metamask settings show testnets 
+And of course should from metamask settings show testnets 
 <br>
-go to infura and create new project. choose goerli testnet
+Go to infura and create new project. choose goerli testnet
 <br>
-come back to vscode add .env file 
+Come back to vscode add .env file 
 <br>
-enter etherscan key on .env file
+Enter etherscan key on .env file
 <br>
-enter private keys on .env file
+Enter private keys on .env file
 <br>
-enter hardhat.config.js and put your code inside to hardhat.config.js 
+Enter hardhat.config.js and put your code inside to hardhat.config.js 
 <br>
 
-right now we can compile this code 
+Right now we can compile this code 
 <br>
 ```
 npx hardhat compile
@@ -69,9 +69,9 @@ npx hardhat run scripts/deploying.js --network georli
 ```
 
 <br>
-we can go to goerliethercan and we can see contract address 
+We can go to goerliethercan and we can see contract address 
 <br>
-but there is a little problem  this contract dont verify we will verify this contract
+But there is a little problem  this contract dont verify we will verify this contract
 <br>
 
 
@@ -80,13 +80,13 @@ npx hardhat verify -- network goerli -enter the contract adress here-
 ```
 
 <br>
-very good everything is working right now  ;)
+Very good everything is working right now  ;)
 
-# how we can connect to website this contract 
+# How we can connect to website this contract 
 
-actually its very clear we can look 'mainMint.js file' 
+Actually its very clear we can look 'mainMint.js file' 
 <br>
-we used to web3 for connection to website or we can use ether.js its your choice
+We used to web3 for connection to website or we can use ether.js its your choice
 
 
 ```
