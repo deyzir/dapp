@@ -102,22 +102,67 @@ we used to web3 for connection to website or we can use ether.js its your choice
 
 ```
 
-this code allow us to connect but we see **mines.abi** 
-first of all we have to add mines.abi file to src folder.
-
-
+This code allow us to connect but we see **mines.abi** 
+First of all we have to add mines.abi file to src folder.
 
 <img width="319" alt="Screenshot 2022-12-13 at 08 34 04" src="https://user-images.githubusercontent.com/64195458/207234973-fe14371c-8d8b-4de0-9fe3-7b0195f94414.png">
 
-this image we can see it but the name is different to src because ı changed it 
+This image we can see it but the name is different to src because ı changed it 
 <br>
 <img width="324" alt="Screenshot 2022-12-13 at 08 35 00" src="https://user-images.githubusercontent.com/64195458/207235096-21806a68-876d-47d1-b07b-e84836f41de1.png">
 
-this file name is **Miness.json**
+This file name is **Miness.json**
 <br>
-ı just did copy past from artifact/contracts/....json. to src/Miness.json
+I just did copy past from artifact/contracts/....json. to src/Miness.json
 <br>
-everything is looking good 
+Everything is looking good 
+
+
+# How to create nft image 
+
+First of all we should go to hashlips github contract - 
+
+https://github.com/HashLips/hashlips_art_engine
+
+We can see how to use this repo 
+
+İf you create nft images and json's we can go to ıpfs website , pinata.
+
+<br> 
+##Very good almost done
+<br>
+### This side little important for your nft upload to testnet.opensea
+
+
+<img width="1470" alt="Screenshot 2022-12-13 at 08 56 23" src="https://user-images.githubusercontent.com/64195458/207238104-a65bf479-391f-4e3d-998f-e8e44438e514.png">
+
+This photo we are seeing **BaseUrl** we have to add from ipfs metadata so **json** file to **baseUrl** 
+
+
+Of course we have to allow some function for make a mint 
+
+<img width="1470" alt="Screenshot 2022-12-13 at 08 59 12" src="https://user-images.githubusercontent.com/64195458/207238681-104c0cf6-3027-4671-a992-a0d7a1cfd305.png">
+like this 
+<br>
+so how we can control this token 'NFT'
+
+if you want you can go to ethercan  and connect your wallet then you can mint here 
+
+<img width="1470" alt="Screenshot 2022-12-13 at 09 04 28" src="https://user-images.githubusercontent.com/64195458/207239378-fac49d57-b8a4-49d5-8a08-7e7485d1d6f4.png">
+<br>
+
+OR
+<br>
+you can mint website 
+
+WELL DONE EVERYTHİNG İS DONE ;)
+
+
+
+
+
+
+
 
 
 
