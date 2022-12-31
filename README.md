@@ -1,11 +1,12 @@
 # CREATE A DAPP WEBSİTE 
-
+## before start;
+There is no react packages inside this repo
 #How is it looking code 
 
 ![images](https://user-images.githubusercontent.com/64195458/207062889-edfed772-f528-4c75-977a-b6244a51c4dd.gif)
 
 
-Before we start what we will use source;
+Before we start what we will use source
 <br>
 1 - REACT 
 <br>
@@ -128,7 +129,7 @@ First of all we should go to hashlips github contract -
 
 https://github.com/HashLips/hashlips_art_engine
 
-We can see how to use this repo 
+We can see how to use this repo
 
 İf you create nft images and json's we can go to ıpfs website , pinata.
 
